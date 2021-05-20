@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.busbooking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/buslogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/buslogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".homepage" />
+        <activity android:name=".bus1search" />
+        <activity android:name=".bus2agencies" />
+        <activity android:name=".bus3seat" />
+        <activity android:name=".bus4date" />
+        <activity android:name=".bus5ac" />
+        <activity android:name=".bus6book" />
+        <activity android:name=".bus7pay" />
+        <activity android:name=".bus8done" />
+        <activity android:name=".hire1" />
+        <activity android:name=".hire2search" />
+        <activity android:name=".hire3local1" />
+        <activity android:name=".hire4local2" />
+        <activity android:name=".hire5local3" />
+        <activity android:name=".hire5local4" />
+        <activity android:name=".hire7local5" />
+        <activity android:name=".hire8pay" />
+        <activity android:name=".hire9done" />
+        <activity android:name=".hire10out" />
+        <activity android:name=".mybookings" />
+        <activity android:name=".myaccount" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".help" />
+        <activity android:name=".help1" />
+        <activity android:name=".help2" />
+        <activity android:name=".finaloffers"></activity>
+    </application>
+
+</manifest>
